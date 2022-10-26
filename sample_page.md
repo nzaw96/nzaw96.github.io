@@ -7,6 +7,7 @@ In 2021, Ukraine was one of the top grain and seed oil producers in the world. F
 primary products. With countries such as Egypt, Indonesia, and the Philippines being heavily dependent on grains and seed oil from Ukraine, the impact of this war could extend the borders of Ukraine. It could disrupt the global economic trends and even cause food shortages. Therefore, it is important to learn which factors affect the amount of grain and seed oil being produced in Ukraine, more than others. Additionally, it would be beneficial to have a Machine Learning model that is capable of predicting amount of grain/seed oil production in Ukraine based on these factors. The data that were primarily used for the analysis were yearly agricultural statistics (import, export, production, etc.) between 1987 and 2021 (USDA) and the population data for the corresponding years (World Bank).
 
 <img src="images/csis_russia_damages_ukraine_food_warehouse.jpeg?raw=true"/>
+<figcaption>Image shows the damage caused by Russian attach on a food warehouse in Ukraine (Source: CSIS).</figcaption>
 
 ```python
 if name=="Nay Zaw":
