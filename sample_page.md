@@ -14,11 +14,11 @@ primary products. With countries such as Egypt, Indonesia, and the Philippines b
 
 ### 3. Exploratory Data Analysis (EDA)
 
-<img src="images/Ukriane_project_boxplots.png?raw=true"/>
+<img src="images/Ukraine_project_boxplots.png?raw=true"/>
 
-<img src="images/Ukriane_project_commodityVsYear.png?raw=true"/>
+<img src="images/Ukraine_project_commodityVsYear.png?raw=true"/>
 
-<img src="images/Ukriane_project_heatmap.png?raw=true"/>
+<img src="images/Ukraine_project_heatmap.png?raw=true"/>
 
 ### 4. Provide a basis for further data collection through surveys or experiments
 
