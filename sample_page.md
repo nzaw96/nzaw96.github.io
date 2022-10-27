@@ -32,6 +32,6 @@ An important step before training ML models is the feature selection. Seaborn's 
 
 ### 4. Model Development
 
-The 
+The features left in the dataset after the feature selection were Commodity, Area Harvested, Beginning Stocks,Exports, Domestic Consumption, Yield and Rural Population. Using these 7 features, the six models (multilinear, ridge, lasso, decision tree, random forest, kNN) were trained to predict the production amount.
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
