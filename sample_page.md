@@ -9,6 +9,7 @@ primary products. With countries such as Egypt, Indonesia, and the Philippines b
 <img src="images/csis_russia_damages_ukraine_food_warehouse.jpeg?raw=true"/>
 <figcaption><em>Image shows the damage caused by Russian attach on a food warehouse in Ukraine (Source: <a href=https://www.csis.org/analysis/spotlight-damage-ukraines-agricultural-infrastructure-russias-invasion>CSIS</a>).</em></figcaption>
 
+
 ### 2. Project Workflow Chart
 <img src="images/Ukraine_project_workflow.png?raw=true"/>
 
