@@ -17,9 +17,13 @@ primary products. With countries such as Egypt, Indonesia, and the Philippines b
 
 ### 3. Exploratory Data Analysis (EDA)
 
+Boxplots were created using Plotly to observe the spread/skew of the independent variables. The most skewed variables were Beginning Stocks, Imports, Exports, Feed Dom. Consumption and Fsi. Consumption. However, since the size of the dataset is small, the skewed variables/columns were not dropped.
+(Note: 'Fsi' stand for 'Feed, Seed and Indsutrial' and virtually refers to consumption by humans and pets while Feed Dom. (Domestic) Consumption refers to consumption by farm animals.)
 <img src="images/Ukraine_project_boxplots.png?raw=true"/>
-
+<br><br>
+The following plot shows how the production levels of the four primary commodities of Ukraine (barley, corn, wheat and sunflowerseed oil) have changed over the years since 1987. Notice that corn has emerged as Ukraine's most produced commodity in the last few years.
 <img src="images/Ukraine_project_commodityVsYear.png?raw=true"/>
+<br><br>
 
 <img src="images/Ukraine_project_heatmap.png?raw=true"/>
 
