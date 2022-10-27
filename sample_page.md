@@ -35,7 +35,6 @@ An important step before training ML models is the feature selection. Seaborn's 
 The features left in the dataset after the feature selection were Commodity, Area Harvested, Beginning Stocks,Exports, Domestic Consumption, Yield and Rural Population. Using these 7 features, the six models (multilinear, ridge, lasso, decision tree, random forest, kNN) were trained to predict the production amount.
 Comprehensive hyperparameter search was done using LassoCV (for Lasso Regression), RidgeCV (for Ridge Regression) and GridSearchCV (for Decision Tree, Random Forest and kNN). After getting the optimal values for the hyperparameters, each model was trained and test 1000 times, using 1000 different train-test splits of the dataset. At the end, average training and testing RMSE was calculated and tabulated.
 
-<html>
 <style>
 table, th, td {
   border:1px solid black;
@@ -47,26 +46,46 @@ table, th, td {
 
 <table style="width:100%">
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <th>Model</th>
+    <th>Train Error</th>
+    <th>Test Error</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>Multi-linear</td>
+    <td>948.480</td>
+    <td>1030.839</td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+    <td>Ridge</td>
+    <td>948.888</td>
+    <td>1030.053</td>
+  </tr>
+  <tr>
+    <td>Lasso</td>
+    <td>948.916</td>
+    <td>1030.042</td>
+  </tr>
+  <tr>
+    <td>Decision Tree</td>
+    <td>8.523</td>
+    <td>2327.817</td>
+  </tr>
+  <tr>
+    <td>Random Forest</td>
+    <td>676.098</td>
+    <td>1701.885</td>
+  </tr>
+  <tr>
+    <td>kNN</td>
+    <td>1424.678</td>
+    <td>2151.700</td>
   </tr>
 </table>
 
-<p>To understand the example better, we have added borders to the table.</p>
-
+<p>Even with hyper-parameter tuning using GridsearchCV module, the decision tree model has a testing error of 2327.817, which is the highest of all six models. On the other hand, the training error for the decision tree is 8.523. This suggests that the model is highly over-fitting, which decision trees are known for, especially for the smaller data sets. Over-fitting is also observed in the random forest model, albeit to a lesser degree,
+where training and testing errors were 676.098 and 1701.853, respectively.</p>
 </body>
-</html>
+
 
 <br><br>
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
