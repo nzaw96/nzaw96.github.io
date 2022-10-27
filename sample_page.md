@@ -12,9 +12,13 @@ primary products. With countries such as Egypt, Indonesia, and the Philippines b
 ### 2. Project Workflow Chart
 <img src="images/Ukraine_project_workflow.png?raw=true"/>
 
-### 3. Exploratory Data Analysis (EDA) on the data
+### 3. Exploratory Data Analysis (EDA)
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/Ukriane_project_boxplots.png?raw=true"/>
+
+<img src="images/Ukriane_project_commodityVsYear.png?raw=true"/>
+
+<img src="images/Ukriane_project_heatmap.png?raw=true"/>
 
 ### 4. Provide a basis for further data collection through surveys or experiments
 
