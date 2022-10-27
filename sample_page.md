@@ -77,8 +77,8 @@ The table below shows the training and testing RMSEs for the six models. Note th
 </table>
 
 <p>Even with hyper-parameter tuning using GridsearchCV module, one can see that the decision tree model has a testing error of 2327.817, which is the highest of all six models. On the other hand, the training error for the decision tree is 8.523. This suggests that the model is highly over-fitting, which decision trees are known for, especially for the smaller data sets. Over-fitting is also observed in the random forest model, albeit to a lesser degree, where training and testing errors were 676.098 and 1701.853, respectively.
-<br>
-On the other hand, 
+<br><br>
+On the other hand, the linear models were more accurate, with slight differences in RMSEs between the three. Lasso has smallest testing error among the three models.
 </p>
 </body>
 
