@@ -9,20 +9,10 @@ primary products. With countries such as Egypt, Indonesia, and the Philippines b
 <img src="images/csis_russia_damages_ukraine_food_warehouse.jpeg?raw=true"/>
 <figcaption><em>Image shows the damage caused by Russian attach on a food warehouse in Ukraine (Source: <a href=https://www.csis.org/analysis/spotlight-damage-ukraines-agricultural-infrastructure-russias-invasion>CSIS</a>).</em></figcaption>
 
-```python
-if name=="Nay Zaw":
-  print("He's awesome")
-```
+### 2. Project Workflow Chart
+<img src="images/Ukraine_project_workflow.png?raw=true"/>
 
-### 2. Assess assumptions on which statistical inference will be based
-
-```javascript
-if (isAwesome){
-  return true
-}
-```
-
-### 3. Support the selection of appropriate statistical tools and techniques
+### 3. Exploratory Data Analysis (EDA) on the data
 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
