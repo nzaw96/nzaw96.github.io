@@ -1,13 +1,13 @@
 ## Data Science Projects
 
 
-[Predicting Grain and Seed Oil Production in Ukraine](/sample_page)
+[Predicting Grain and Seed Oil Production in Ukraine](/UkraineGrain_Proj)
 <br><br>
 <img src="images/ukraine_grain_thumbnail_pic.jpeg?raw=true"/>
 <p><em>REUTERS/Dado Ruvic/Illustration</em></p>
 
 ---
-[Analysis of Reddit User Disclosures about Smoking Addiction during COVID-19 Pandemic](/pdf/sample_presentation.pdf)
+[Analysis of Reddit User Disclosures about Smoking Addiction during COVID-19 Pandemic](/Reddit_Proj)
 <img src="images/reddit_smokingProj_thumbnail.webp?raw=true"/>
 
 ---
