@@ -80,7 +80,9 @@ The table below shows the training and testing RMSEs for the six models. Note th
 <br><br>
 On the other hand, the linear models were more accurate, with slight differences in RMSEs between the three. Lasso has smallest testing error among the three models.
 <br><br>
-Even though Lasso has been identified as the best performing model out of the six, it is still difficult to gauge its usefulness. Without much context, the RMSE error values inside the results table above may either seem too large or too small. Fortunately, towards the end of this project, USDA released the data for 2022. Therefore, the feature values from the 2022 data were used to test the lasso model. The prediction 
+Even though Lasso has been identified as the best performing model out of the six, it is still difficult to gauge its usefulness. Without much context, the RMSE error values inside the results table above may either seem too large or too small. Therefore, another metric called RMSPE (Root Mean-Squared Percentage Error) was calculated in order to put context in the testing RMSE value of Lasso model, shown in the results table above. The <b>RMSPE</b> value of the lasso model was <b>9.09%</b>. 
+
+Fortunately, towards the end of this project, USDA released the data for 2022. Therefore, the feature values from the 2022 data were used to test the lasso model. The prediction 
 </p>
 </body>
 
