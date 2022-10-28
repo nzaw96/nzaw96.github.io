@@ -4,7 +4,7 @@
 [Predicting Grain and Seed Oil Production in Ukraine](/sample_page)
 <br><br>
 <img src="images/ukraine_grain_thumbnail_pic.jpeg?raw=true"/>
-<p>REUTERS/Dado Ruvic/Illustration</p>
+<p><em>REUTERS/Dado Ruvic/Illustration</em></p>
 
 ---
 [Analysis of Reddit User Disclosures about Smoking Addiction during COVID-19 Pandemic](/pdf/sample_presentation.pdf)
