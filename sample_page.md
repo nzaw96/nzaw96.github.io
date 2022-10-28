@@ -10,7 +10,7 @@ primary products. With countries such as Egypt, Indonesia, and the Philippines b
 
 
 <img src="images/csis_russia_damages_ukraine_food_warehouse.jpeg?raw=true"/>
-<figcaption><em>Image shows the damage caused by Russian attach on a food warehouse in Ukraine (Source: <a href=https://www.csis.org/analysis/spotlight-damage-ukraines-agricultural-infrastructure-russias-invasion>CSIS</a>).</em></figcaption>
+<figcaption><em>Image shows the damage caused by Russian attack on a food warehouse in Ukraine (Source: <a href=https://www.csis.org/analysis/spotlight-damage-ukraines-agricultural-infrastructure-russias-invasion>CSIS</a>).</em></figcaption>
 <br><br>
 <br><br>
 
@@ -89,8 +89,8 @@ While this project was coming to an end, the USDA published the data for 2022. T
 <table style="width:100%">
   <tr>
     <th>Commodity</th>
-    <th>Actual Production Value for 2022 (in 1000 MT)</th>
-    <th>Model (Lasso) Prediction (in 1000 MT)</th>
+    <th>Actual Production Values for 2022 (in 1000 MT)</th>
+    <th>Predicted Values (in 1000 MT)</th>
   </tr>
   <tr>
     <td>Barley</td>
