@@ -90,7 +90,7 @@ While this project was coming to an end, the USDA published the data for 2022. T
   <tr>
     <th>Commodity</th>
     <th>Actual Production Value for 2022 (in 1000 MT)</th>
-    <th>Model Prediction (in 100MT)</th>
+    <th>Model (Lasso) Prediction (in 1000 MT)</th>
   </tr>
   <tr>
     <td>Barley</td>
@@ -114,7 +114,7 @@ While this project was coming to an end, the USDA published the data for 2022. T
   </tr>
 </table>
 
-
+The <b>RMSPE</b> was calculated again for the Lasso Model on this new 2022 test dataset. It came out to be <b>10.08%</b>.
 
 
 
