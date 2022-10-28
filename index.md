@@ -1,4 +1,4 @@
-## My Data Science Projects
+## Data Science Projects
 
 
 [Predicting Grain and Seed Oil Production in Ukraine](/sample_page)
