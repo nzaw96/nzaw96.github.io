@@ -8,7 +8,9 @@
 
 ---
 [Analysis of Reddit User Disclosures about Smoking Addiction during COVID-19 Pandemic](/Reddit_Proj)
+<br><br>
 <img src="images/reddit_smokingProj_thumbnail.webp?raw=true"/>
+<p><em>Getty Images</em></p>
 
 ---
 [Project 3 Title](http://example.com/)

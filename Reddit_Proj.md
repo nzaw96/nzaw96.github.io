@@ -1,12 +1,12 @@
 ## Predicting Grain and Seed Oil Production in Ukraine
 
-**Project description:** The goal of this project is to build a Machine Learning model that is capable of predicting the amount of grain, specifically barley, wheat and corn, and sunflowerseed oil being produced in a calendar year, in Ukraine. The two sources of the data used in this project were United States Department of Agriculture (USDA) and World Bank. Three linear models (Multi-variable Linear Regression, Ridge Regression, Lasso Regression) and three non-linear models (Decision Tree Regression, Random Forest Regression and k-Nearest Neighbors Regression) were trained, tested and compared. Root Mean-Squared Error (RMSE) was used as a metric to compare the models. In the end, the model with the smallest RMSE on the test dataset is identified as the most suitable model for use as a tool to predict amount of grain and seed oil production in Ukraine.
+**Project description:** The goal of this project is to analyze changes in linguistic patterns of the Reddit users before and during the COVID-19 pandemic.
+
 <br><br>
-This project was presented at the IBDAP 2022 Big Data Anatlytics Conference, which was held in Bangkok, Thailand. The paper has been published recently by IEEE, which can be accessed at https://ieeexplore.ieee.org/document/9907513. The code for this project can be found in my github repo: github.com/nzaw96. 
+This project was presented at the ICWSM 2022 Conference, which was held in Atlanta, Georgia, USA. The code for this project can be found in my github repo: github.com/nzaw96. 
 
 ### 1. Project Motivation: The recent invasion of Ukraine by Russia can have global consequences.
-In 2021, Ukraine was one of the top grain and seed oil producers in the world. Four of its primary commodities, which brought in over 1 billion dollars each in export sales in 2021, were wheat, barley, corn, and sunflower oil seed (also simply referred to as sunflower seed or sunflower oil). The February 24th invasion by Russia could negatively impact Ukraine’s ability to keep the same production (and export) level for its
-primary products. With countries such as Egypt, Indonesia, and the Philippines being heavily dependent on grains and seed oil from Ukraine, the impact of this war could extend the borders of Ukraine. It could disrupt the global economic trends and even cause food shortages. Therefore, it is important to learn which factors affect the amount of grain and seed oil being produced in Ukraine, more than others. Additionally, it would be beneficial to have a Machine Learning model that is capable of predicting amount of grain/seed oil production in Ukraine based on these factors. The data that were primarily used for the analysis were yearly agricultural statistics (import, export, production, etc.) between 1987 and 2021 (USDA) and the population data for the corresponding years (World Bank).
+The outbreak of the COVID-19 pandemic created global social distancing restrictions, which forced millions of people to stay at home. The imposed seclusion could cause further marginalization of the 
 
 
 <img src="images/csis_russia_damages_ukraine_food_warehouse.jpeg?raw=true"/>
