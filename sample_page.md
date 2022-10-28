@@ -80,11 +80,42 @@ The table below shows the training and testing RMSEs for the six models. Note th
 <br><br>
 On the other hand, the linear models were more accurate, with slight differences in RMSEs between the three. Lasso has smallest testing error among the three models.
 <br><br>
-Even though Lasso has been identified as the best performing model out of the six, it is still difficult to gauge its usefulness. Without much context, the RMSE error values inside the results table above may either seem too large or too small. Therefore, another metric called RMSPE (Root Mean-Squared Percentage Error) was calculated in order to put context in the testing RMSE value of Lasso model, shown in the results table above. The <b>RMSPE</b> value of the lasso model was <b>9.09%</b>. 
-
-Fortunately, towards the end of this project, USDA released the data for 2022. Therefore, the feature values from the 2022 data were used to test the lasso model. The prediction 
+Even though Lasso has been identified as the best performing model out of the six, it is still difficult to gauge its usefulness. Without much context, the RMSE error values inside the results table above may either seem too large or too small. Therefore, another metric called RMSPE (Root Mean-Squared Percentage Error) was calculated in order to put context in the testing RMSE value of Lasso model, shown in the results table above. The <b>RMSPE</b> value of the <b>lasso regression model</b> was <b>9.09%</b>. 
+<br><br>
+While this project was coming to an end, the USDA published the data for 2022. Therefore, this next calculation was not included in the paper itself. The table below shows the actual production values of corn, wheat, barley and sunfloweroil seed, alongside the production values predicted by the Lasso model.
 </p>
 </body>
+
+<table style="width:100%">
+  <tr>
+    <th>Commodity</th>
+    <th>Actual Production Value for 2022 (in 1000 MT)</th>
+    <th>Model Prediction (in 100MT)</th>
+  </tr>
+  <tr>
+    <td>Barley</td>
+    <td>6400</td>
+    <td>6864.80</td>
+  </tr>
+  <tr>
+    <td>Corn</td>
+    <td>31500</td>
+    <td>25668.70</td>
+  </tr>
+  <tr>
+    <td>Wheat</td>
+    <td>20500</td>
+    <td>19959.90</td>
+  </tr>
+  <tr>
+    <td>Sunfloweroil Seed</td>
+    <td>10500</td>
+    <td>10701.89</td>
+  </tr>
+</table>
+
+
+
 
 
 <br><br>
