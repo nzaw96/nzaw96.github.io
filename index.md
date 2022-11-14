@@ -7,6 +7,10 @@
 <p><em>REUTERS/Dado Ruvic/Illustration</em></p>
 
 ---
+[COVID-19 In Different US States](http://example.com/)
+<img src="images/COVID_USstates.jpeg?raw=true"/>
+
+---
 [Analysis of Reddit User Disclosures about Smoking Addiction during COVID-19 Pandemic](/Reddit_Proj)
 <br><br>
 <img src="images/reddit_smokingProj_thumbnail.webp?raw=true"/>
