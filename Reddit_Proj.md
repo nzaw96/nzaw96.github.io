@@ -1,40 +1,27 @@
-## Predicting Grain and Seed Oil Production in Ukraine
+## Reddit NLP Analysis of Posts/Submissions made by Users w/ Smoking Addiction
 
 **Project description:** The goal of this project is to analyze changes in linguistic patterns of the Reddit users before and during the COVID-19 pandemic.
 <br><br>
 This project was presented at the ICWSM 2022 Conference, which was held in Atlanta, Georgia, USA. The code for this project can be found in <a href="https://github.com/nzaw96/Reddit-Addiction-Study">my Github repo</a> .
 
-### 1. Project Motivation: The recent invasion of Ukraine by Russia can have global consequences.
-The outbreak of the COVID-19 pandemic created global social distancing restrictions, which forced millions of people to stay at home. The imposed seclusion could cause further marginalization of the 
-
-
-<img src="images/csis_russia_damages_ukraine_food_warehouse.jpeg?raw=true"/>
-<figcaption><em>Image shows the damage caused by Russian attack on a food warehouse in Ukraine (Source: <a href="https://www.csis.org/analysis/spotlight-damage-ukraines-agricultural-infrastructure-russias-invasion">CSIS</a>).</em></figcaption>
-<br><br>
-<br><br>
+### 1. Project Motivation: Are people with smoking addiction getting the help and attention that they need during the COVID-19 pandemic?
+The outbreak of the COVID-19 pandemic created global social distancing restrictions, which forced millions of people to stay at home. The imposed seclusion could cause further marginalization of the individuals with Substance Use Disorders (SUDs). With so much attention and prioritization of health-care services for the COVID-19 patients, it is likely that the individuals with SUDs, such as those with smoking addiction, who are feeling the secondary effects of the pandemic were forgotten. 
 
 ### 2. Project Workflow Chart
-<img src="images/Ukraine_project_workflow.png?raw=true"/>
+<img src=""/>
 
-### 3. Exploratory Data Analysis (EDA)
+### 3. Data and Preprocessing
 
-Boxplots were created using Plotly to observe the spread/skew of the independent variables. The most skewed variables were Beginning Stocks, Imports, Exports, Feed Dom. Consumption and Fsi. Consumption. However, since the size of the dataset is small, the skewed variables/columns were not dropped.
-(Note: 'Fsi' stand for 'Feed, Seed and Indsutrial' and virtually refers to consumption by humans and pets while Feed Dom. (Domestic) Consumption refers to consumption by farm animals.)
-<img src="images/Ukraine_project_boxplots.png?raw=true"/>
-<br><br>
-The following plot shows how the production levels of the four primary commodities of Ukraine (barley, corn, wheat and sunflowerseed oil) have changed over the years since 1987. Notice that corn has emerged as Ukraine's most produced commodity in the last few years.
-<img src="images/Ukraine_project_commodityVsYear.png?raw=true"/>
-<br><br>
-An important step before training ML models is the feature selection. Seaborn's correlation heatmap allows one to see how strongly the independent variables are correlated with one another and with the dependent variable. For example, Total Supply has the (pearson) correlation value of 0.99 with Production but it also has 0.85 correlation with Area Harvested, which is another feature. With the interest of keeping the number of features in the dataset small, one can drop Total Supply or Area Harvested. Similarly, Population and Rural Population have a strong correlation of 0.95 between them and one can drop one of those features from the dataset. The criteria and full thought processes involved in the feature selection step of the project can be in the paper, linked at the top of this page.  
-<img src="images/Ukraine_project_heatmap.png?raw=true"/>
-<br><br>
+First, the Python Reddit API Wrapper <a href="https://praw.readthedocs.io/en/stable/">(PRAW)</a> was used to scrape all submissions and comments from the subreddit “r/stopsmoking” that were published on or after
+January 1, 2018 until March 1, 2022. We consider the category of each post as either a comment post or a submission post. Submissions are the main posts made by a user that can start a discussion thread, whereas comments are responses to a given submission or a submission’s reply. A total of 35,425 submissions and 372,144 comments were retrieved. First, both submissions and comments were split into two subsets of data based on March 11th, 2020 – the date when COVID-19 was declared as a pandemic (therefore there were a total of 4 datasets). Next, the actual text bodies of each of the four datasets were cleaned by removing the punctuation, unicode characters, URLs and other non-alphanumeric characters. Different python NLP packages were used in this project: NLTK for n-grams, TextBlob for sentiment polarity computations, BERTopic for topic extraction, and gensim for Word2Vec embeddings.
 
-### 4. Model Development and Results
+### 4. Results
 
-The features left in the dataset after the feature selection were Commodity, Area Harvested, Beginning Stocks,Exports, Domestic Consumption, Yield and Rural Population. Using these 7 features, the six models (multilinear, ridge, lasso, decision tree, random forest, kNN) were trained to predict the production amount.
-Comprehensive hyperparameter search was done using LassoCV (for Lasso Regression), RidgeCV (for Ridge Regression) and GridSearchCV (for Decision Tree, Random Forest and kNN). After getting the optimal values for the hyperparameters, each model was trained and test 1000 times, using 1000 different train-test splits of the dataset. At the end, average training and testing RMSE was calculated and tabulated for each model.
-<br><br>
-The table below shows the training and testing RMSEs for the six models. Note that all the values inside the table are in 1000 MT (Megatonnes), which is the same unit as Production in the data.
+#### <em>n-grams</em>
+
+An n-gram is the most frequently occurring sequence of N words in a corpus. 
+The top-10 tri-grams and quad-grams extracted from each of the four datasets are listed in the Table 3, Table 4, Table 1, and Table 2. First, we observe that in both comments and submissions, that were published both before and after COVID-19 was officially declared to be a pandemic, the book written by Alan Carr called “Alan Carr’s Easy Way to Stop Smoking” (Carr 2004) is the most frequently referenced resource. Although all four tables share similarities in their n-grams, there is a subtle difference between Table 1 and Table 2 in terms of the polarity of the words in their n-grams. Table 2 contains n-grams that share their experiences while at the same time seeking advice from the community. On the other hand, when we consider polarity values, Table 1 contains n-grams that carry a more neutral tone and are also found in Table 2. This may suggest that staying at home during the pandemic might have caused them to seek extra
+
 <body>
 
 <table style="width:100%">
