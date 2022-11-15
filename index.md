@@ -1,4 +1,4 @@
-## Data Science Projects
+## Projects
 
 
 [Predicting Grain and Seed Oil Production in Ukraine](/UkraineGrain_Proj)
