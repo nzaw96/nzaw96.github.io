@@ -8,7 +8,7 @@ This project was presented at the ICWSM 2022 Conference, which was held in Atlan
 The outbreak of the COVID-19 pandemic created global social distancing restrictions, which forced millions of people to stay at home. The imposed seclusion could cause further marginalization of the individuals with Substance Use Disorders (SUDs). With so much attention and prioritization of health-care services for the COVID-19 patients, it is likely that the individuals with SUDs, such as those with smoking addiction, who are feeling the secondary effects of the pandemic were forgotten. 
 
 ### 2. Project Workflow Chart
-<img src=""/>
+<img src="images/RedditProjWorkflow.png?raw=true"/>
 
 ### 3. Data and Preprocessing
 
