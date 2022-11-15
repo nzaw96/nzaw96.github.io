@@ -1,7 +1,6 @@
 ## Predicting Grain and Seed Oil Production in Ukraine
 
 **Project description:** The goal of this project is to analyze changes in linguistic patterns of the Reddit users before and during the COVID-19 pandemic.
-
 <br><br>
 This project was presented at the ICWSM 2022 Conference, which was held in Atlanta, Georgia, USA. The code for this project can be found in <a href="https://github.com/nzaw96/Reddit-Addiction-Study">my Github repo</a> .
 
