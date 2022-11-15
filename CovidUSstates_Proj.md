@@ -20,4 +20,4 @@ So, does a state/territory with stricter COVID-19 regulations handle the impact 
 
 2. The second plot created is a map graph that shows the aggregates of the same five measures from above for each state (the values of the five measures are only visible when you hover over the interactive graph). The color of a state depends of the number of 'Deceased' in it. The higher the number of deaths in a state, the darker the color is on the graph.
 <br><br>
-
+<img src="images/CovidProj_StatesMapGraph.png?raw=true"/>
