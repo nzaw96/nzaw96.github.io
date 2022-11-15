@@ -69,6 +69,6 @@ from 1 meaning exactly opposite, to 1 meaning exactly the same, with 0 indicatin
 
 ### 4. Discussion
 
-
+This analysis extracts different linguistic cues from discussions that emphasize on their shift during the pandemic. Specifically, we noticed from the topics that during the pandemic there is an increased mentioning of several personal stories as well as honest struggles (for example, consuming alcohol, marijuana) to fight the triggers. Semantic shift using similarity between the neural embeddings also suggest that smoking-related keywords are shown to be having values lesser than 0 suggesting an opposite behavior between before and during the pandemic. These insights corroborate with the existing medical and clinical studies that the pan-demic has made it difficult for individuals with addictions. Note that given the focus on only one specific subreddit as well as one kind of addiction disorder, the impact of the results might be limited. As part of future work, the project will be expanded to include several other addiction disorders as well as consider different forums, to evaluate the impact of COVID-19 on individuals in these contexts.
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
