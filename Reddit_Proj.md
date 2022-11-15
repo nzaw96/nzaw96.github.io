@@ -29,8 +29,6 @@ An n-gram is the most frequently occurring sequence of N words in a corpus. The 
 
 <img src="images/RedditProj_ngram_commsDuring.png?raw=true"/>
 
-<br><br>
-
 ### <em>Sentiment Polarity Analysis</em>
 
 <img src="images/sentPolarityC.png?raw=true"/>
@@ -43,13 +41,22 @@ Figure 2: Plot, representing the monthly average sentiment polarity score of sub
 To further investigate how sentiment polarities changes, the average sentiment polarity value was plotted for each month for comments (shown in Figure 1) and for submissions (shown in Figure 2) separately. Both these plots show three main aspects – 1) average value of sentiment polarity per each month, 2) its moving average over time and, 3) distribution of total number of posts made in each month, as a histogram. Two main observations can be made on Figure 1. First, we see on the right edge of the plot that the average polarity for each month comes out to be positive. This suggests the responses to the submissions have been, by and
 large, encouraging and empathetic. Secondly, we observe that the sentiment polarity score for the comments has decreased gradually since the start of the pandemic where the start date of the pandemic is marked with a vertical dashed line on the plot. Figure 2 shows that relative to comments, submission posts have lower positive polarity. This plot also shows that sentiment polarity score from month to month for submissions is more chaotic compared to the comments with no specific trend (p >0.05).
 
-<br><br>
-
 ### <em>Topic Shifts</em>
 
 Figure 3 shows the top-6 topics extracted from the four different subsets of data – before and during the pandemic for both comments and submissions separately. These topics highlight interesting aspects as follows. <b>Comments</b>: 1) before the pandemic, top-6 topics include vaping, how to fight cravings, reading Allan Carr’s books on ways to quit smoking, being drunk at a bar, different kinds of discomforts due to withdrawals, and triggers and cravings; 2) during the pandemic, top-6 topics include vaping, distracting themselves from cravings and resist, being drunk and hangovers, rambles about fighting addictions in general, smoking weed/cannabis, and fighting cravings; 3) When we compare the topics before and during the pandemic, discussions about drinking alcohol and hangovers jumped to be a more important topic during the pandemic than earlier; 4) Also, there is little to no discussion about reading books specific to ways on how to quit smoking; 5) We also noticed that discussion about marijuana/cannabis is one of the most important topics during the pandemic compared to earlier time period. These insights may suggest that at a high-level individuals might be fighting their urges to quit smoking but may be due to the pandemic, there are increased discussion about them consuming alcohol and hangovers as well as marijuana. Further analysis is required to investigate if individuals are using these alternatives as coping mechanisms during the pandemic while fighting the withdrawal symptoms and triggers on their journey to quit smoking. For <b>Submissions</b>: 1) the top topics of discussions before the pandemic are about vaping and cigarettes addictions, pulmonary issues including cough, asthma, and bronchitis, different withdrawal symptoms including depression, and anxiety, strong cravings to smoke, consuming alcohol (at a bar), failed to quit and relapsed; 2) during the pandemic,
 the most important topic of discussion is about coughing, breathing and different pulmonary issues, seeking advice on how to quit and sharing their personal stories about when they started smoking, discussions about cravings, reading books about how to quit smoking, discussions about cravings, and drinking with friends and hangovers; 3) It is worth noticing that these topics during the pandemic are more personal through sharing their personal stories in order to seek advice on how to quit smoking and also sharing about consuming alcohol with their friends which we do not see clearly before the pandemic; 4) since some of the common symptoms of COVID-19 is shortness of breathe and cough, this might be the reason why we see discussions about pul- monary issues is the main topic of discussion; 5) stay-at-home orders to mitigate the spread of COVID-19 virus also
 might be the factor for individuals to open up online and share more of their personal stories than earlier.
 
+<img src="images/topicShift_commsBefore.png?raw=true"/>
+Figure 3a: Topics for comments, before COVID-19.
+
+<img src="images/topicShift_commsDuring.png?raw=true"/>
+Figure 3b: Topics for comments, duriing COVID-19.
+
+<img src="images/topicShift_subsBefore.png?raw=true"/>
+Figure 3c: Topics for submissions, before COVID-19.
+
+<img src="images/topicShift_subsDuring.png?raw=true"/>
+Figure 3c: Topics for submissions, during COVID-19.
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
