@@ -3,7 +3,7 @@
 **Project description:** The goal of this project is to analyze changes in linguistic patterns of the Reddit users before and during the COVID-19 pandemic.
 
 <br><br>
-This project was presented at the ICWSM 2022 Conference, which was held in Atlanta, Georgia, USA. The code for this project can be found in my github repo: github.com/nzaw96. 
+This project was presented at the ICWSM 2022 Conference, which was held in Atlanta, Georgia, USA. The code for this project can be found in <a href="https://github.com/nzaw96/Reddit-Addiction-Study">my Github repo</a> .
 
 ### 1. Project Motivation: The recent invasion of Ukraine by Russia can have global consequences.
 The outbreak of the COVID-19 pandemic created global social distancing restrictions, which forced millions of people to stay at home. The imposed seclusion could cause further marginalization of the 

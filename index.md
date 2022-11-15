@@ -13,7 +13,7 @@
 <p><em>everydayhealth.com/coronavirus/</em></p>
 
 ---
-[Analysis of Reddit User Disclosures about Smoking Addiction during COVID-19 Pandemic](/Reddit_Proj)
+[Smoking Addiction NLP Analysis during COVID-19 Pandemic](/Reddit_Proj)
 <br><br>
 <img src="images/reddit_smokingProj_thumbnail.webp?raw=true"/>
 <p><em>Getty Images</em></p>
