@@ -10,7 +10,7 @@ The outbreak of the COVID-19 pandemic created global social distancing restricti
 
 
 <img src="images/csis_russia_damages_ukraine_food_warehouse.jpeg?raw=true"/>
-<figcaption><em>Image shows the damage caused by Russian attack on a food warehouse in Ukraine (Source: <a href=https://www.csis.org/analysis/spotlight-damage-ukraines-agricultural-infrastructure-russias-invasion>CSIS</a>).</em></figcaption>
+<figcaption><em>Image shows the damage caused by Russian attack on a food warehouse in Ukraine (Source: <a href="https://www.csis.org/analysis/spotlight-damage-ukraines-agricultural-infrastructure-russias-invasion">CSIS</a>).</em></figcaption>
 <br><br>
 <br><br>
 
