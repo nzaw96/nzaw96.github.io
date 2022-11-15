@@ -29,4 +29,4 @@ We can see that California, Texas and Florida are the states with the highest nu
 
 4. The final plot created is the line graph representing the Stringency Index score of different states over time, aggregated at the monthly level as well. The Stringency Index score is calculated on the basis of the following 13 metrics: school closures, work closures, cancellation of public events, restrictions on public gatherings, public transport closures, stay-at-home orders, public info campaigns, restrictions on internal movements, international travel restrictions, COVID-testing policy, contact tracing, mask mandate and vaccination policy. A Stringency Index score takes a value between 0 and 100, where 100 is the strictest. Read more about Stringency Index in this <a href="https://ourworldindata.org/covid-stringency-index#:~:text=The%20stringency%20index%20is%20a,100%20(100%20%3D%20strictest).&text=Response%20Tracker).,529%E2%80%93538%20(2021).">article</a>.
 <br><br>
-<img src="images/CovidProj_StatesStringIndex.png?raw=true"/>
+<img src="images/CovidProj_StatesStingIndex.png?raw=true"/>
