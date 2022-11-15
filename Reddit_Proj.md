@@ -21,94 +21,21 @@ January 1, 2018 until March 1, 2022. We consider the category of each post as ei
 
 An n-gram is the most frequently occurring sequence of N words in a corpus. The top-10 tri-grams (n=3) and quad-grams (n=4) extracted from each of the four datasets are listed in the Table 3, Table 4, Table 1, and Table 2. First, we observe that in both comments and submissions, that were published both before and after COVID-19 was officially declared to be a pandemic, the book written by Alan Carr called “Alan Carr’s Easy Way to Stop Smoking” (Carr 2004) is the most frequently referenced resource. Although all four tables share similarities in their n-grams, there is a subtle difference between Table 1 and Table 2 in terms of the polarity of the words in their n-grams. Table 2 contains n-grams that share their experiences while at the same time seeking advice from the community. On the other hand, when we consider polarity values, Table 1 contains n-grams that carry a more neutral tone and are also found in Table 2. This may suggest that staying at home during the pandemic might have caused them to seek extra emotional support and advice from their peers to achieve the goal of smoking cessation. No significant differences can be spotted between Tables 3 and Table 4 as the n-grams in both tables appear to be mostly positive.
 
-<img src="images/RedditProj_ngram_subsBefore.png?raw=true" width="700" height="500"/>
+<img src="images/RedditProj_ngram_subsBefore.png?raw=true"/>
 
-<img src="images/RedditProj_ngram_subsDuring.png?raw=true" width="700" height="500"/>
+<img src="images/RedditProj_ngram_subsDuring.png?raw=true"/>
 
-<img src="images/RedditProj_ngram_commsBefore.png?raw=true" width="700" height="500"/>
+<img src="images/RedditProj_ngram_commsBefore.png?raw=true"/>
 
-<img src="images/RedditProj_ngram_commsDuring.png?raw=true" width="700" height="500"/>
+<img src="images/RedditProj_ngram_commsDuring.png?raw=true"/>
 
-<body>
 
-<table style="width:100%">
-  <tr>
-    <th>Model</th>
-    <th>Train Error</th>
-    <th>Test Error</th>
-  </tr>
-  <tr>
-    <td>Multi-linear</td>
-    <td>948.480</td>
-    <td>1030.839</td>
-  </tr>
-  <tr>
-    <td>Ridge</td>
-    <td>948.888</td>
-    <td>1030.053</td>
-  </tr>
-  <tr>
-    <td>Lasso</td>
-    <td>948.916</td>
-    <td>1030.042</td>
-  </tr>
-  <tr>
-    <td>Decision Tree</td>
-    <td>8.523</td>
-    <td>2327.817</td>
-  </tr>
-  <tr>
-    <td>Random Forest</td>
-    <td>676.098</td>
-    <td>1701.885</td>
-  </tr>
-  <tr>
-    <td>kNN</td>
-    <td>1424.678</td>
-    <td>2151.700</td>
-  </tr>
-</table>
+#### <em>Sentiment Polarity Analysis</em>
 
-<p>Even with hyper-parameter tuning using GridsearchCV module, one can see that the decision tree model has a testing error of 2327.817, which is the highest of all six models. On the other hand, the training error for the decision tree is 8.523. This suggests that the model is highly over-fitting, which decision trees are known for, especially for the smaller data sets. Over-fitting is also observed in the random forest model, albeit to a lesser degree, where training and testing errors were 676.098 and 1701.853, respectively.
+<img src="images/sentPolarityC.png?raw=true"/>
+
 <br><br>
-On the other hand, the linear models were more accurate, with slight differences in RMSEs between the three. Lasso has smallest testing error among the three models.
-<br><br>
-Even though Lasso has been identified as the best performing model out of the six, it is still difficult to gauge its usefulness. Without much context, the RMSE error values inside the results table above may either seem too large or too small. Therefore, another metric called RMSPE (Root Mean-Squared Percentage Error) was calculated in order to put context in the testing RMSE value of Lasso model, shown in the results table above. The <b>RMSPE</b> value of the <b>lasso regression model</b> was <b>9.09%</b>. 
-<br><br>
-While this project was coming to an end, the USDA published the data for 2022. Therefore, this next calculation was not included in the paper itself. The table below shows the actual production values of corn, wheat, barley and sunfloweroil seed, alongside the production values predicted by the Lasso model.
-</p>
-</body>
-
-<table style="width:100%">
-  <tr>
-    <th>Commodity</th>
-    <th>Actual Production Values for 2022 (in 1000 MT)</th>
-    <th>Predicted Values (in 1000 MT)</th>
-  </tr>
-  <tr>
-    <td>Barley</td>
-    <td>6400</td>
-    <td>6864.80</td>
-  </tr>
-  <tr>
-    <td>Corn</td>
-    <td>31500</td>
-    <td>25668.70</td>
-  </tr>
-  <tr>
-    <td>Wheat</td>
-    <td>20500</td>
-    <td>19959.90</td>
-  </tr>
-  <tr>
-    <td>Sunfloweroil Seed</td>
-    <td>10500</td>
-    <td>10701.89</td>
-  </tr>
-</table>
-
-The <b>RMSPE</b> was calculated again for the Lasso Model on this new 2022 test dataset. It came out to be <b>10.08%</b>.
-
+<img src="images/sentPolarityS.png?raw=true"/>
 
 
 <br><br>
