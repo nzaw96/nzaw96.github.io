@@ -29,13 +29,15 @@ An n-gram is the most frequently occurring sequence of N words in a corpus. The 
 
 <img src="images/RedditProj_ngram_commsDuring.png?raw=true"/>
 
+<br><br>
 
 #### <em>Sentiment Polarity Analysis</em>
 
 <img src="images/sentPolarityC.png?raw=true"/>
-
+Figure 1: Plot, representing the monthly average sentiment polarity score of comments, overlaid on the histogram that shows the number of comments published each month since January 2018.
 <br><br>
 <img src="images/sentPolarityS.png?raw=true"/>
+Figure 2: Plot, representing the monthly average sentiment polarity score of submissions, overlaid on the histogram that shows the number of submissions published each month since January 2018.
 
 
 <br><br>
