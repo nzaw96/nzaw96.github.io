@@ -49,14 +49,14 @@ might be the factor for individuals to open up online and share more of their pe
 
 <img src="images/topicShift_commsBefore.png?raw=true"/>
 Figure 3a: Topics for comments, before COVID-19.
-
+<br><br>
 <img src="images/topicShift_commsDuring.png?raw=true"/>
 Figure 3b: Topics for comments, duriing COVID-19.
-
+<br><br>
 <img src="images/topicShift_subsBefore.png?raw=true"/>
 Figure 3c: Topics for submissions, before COVID-19.
-
+<br><br>
 <img src="images/topicShift_subsDuring.png?raw=true"/>
-Figure 3c: Topics for submissions, during COVID-19.
-
+Figure 3d: Topics for submissions, during COVID-19.
+<br><br>
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
