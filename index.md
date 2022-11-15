@@ -19,9 +19,12 @@
 <p><em>Image Source: Getty Images</em></p>
 
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Error Analysis in Dynamic Mode Decomposition (MEng. Final Project](/pdf/PosterForDMD.pdf)
+<img src="images/dmdThumbnail.png?raw=true"/>
+<p><em>Image Source: UMN-Department of Elec. & Comp. Eng.</em></p>
 
+<!-- [Error Analysis in Dynamic Mode Decomposition (MEng. Final Project](http://example.com/)
+<img src="images/dummy_thumbnail.jpg?raw=true"/> -->
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
