@@ -23,11 +23,11 @@ An n-gram is the most frequently occurring sequence of N words in a corpus. The 
 
 <img src="images/RedditProj_ngram_subsBefore.png?raw=true" width="700" height="500"/>
 
-<img src="images/RedditProj_ngram_subsDuring.png?raw=true"/>
+<img src="images/RedditProj_ngram_subsDuring.png?raw=true" width="700" height="500"/>
 
-<img src="images/RedditProj_ngram_commsBefore.png?raw=true"/>
+<img src="images/RedditProj_ngram_commsBefore.png?raw=true" width="700" height="500"/>
 
-<img src="images/RedditProj_ngram_commsDuring.png?raw=true"/>
+<img src="images/RedditProj_ngram_commsDuring.png?raw=true" width="700" height="500"/>
 
 <body>
 
