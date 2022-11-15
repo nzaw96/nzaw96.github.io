@@ -59,4 +59,16 @@ Figure 3c: Topics for submissions, before COVID-19.
 <img src="images/topicShift_subsDuring.png?raw=true"/>
 Figure 3d: Topics for submissions, during COVID-19.
 <br><br>
+
+### <em>Semantic Shifts using Neural Embeddings</em>
+
+We first represent the vocabulary in comments and submissions (two categories of posts) by further separating them out based on whether a post was made before or during the pandemic. For each category of posts, we first identify the common vocabulary in the datasets before and during the pandemic. To ensure the neural embeddings will be of same size for vocabulary, we clean the posts made before and during the pandemic. We leverage Word2Vec approach (Mikolov et al. 2013) to convert the vocabulary into vector format. We then use keywords in the common vocabulary to measure the cosine similarity between its vector representation before the pandemic and during the pandemic. This similarity value is used as the main measure to methodically represent the amount of shift due to the pandemic for a given keyword. Please note that the shift value has a range
+from 1 meaning exactly opposite, to 1 meaning exactly the same, with 0 indicating orthogonality. Table 5 shows a sample set of these keywords with varying values of semantic shift measured through computing cosine similarity
+
+<img src="images/semanticShiftTable.png?raw=true"/>
+
+### 4. Discussion
+
+
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
